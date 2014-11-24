@@ -1,0 +1,41 @@
+  body {
+    font-family: Yellowtail;
+    font-size: 50px;
+    color: gray;
+    font-weight: bold;
+  }
+  .header {
+    font-size: 60px;
+    color: black;
+    margin-bottom: 40px;
+  }
+  .row0 {
+    border-bottom: 2px solid black;
+  }
+  .col1 {
+    border-right: 2px solid black;
+  }
+  .col2 {
+    border-right: 2px solid black;
+  }
+  #board{
+    margin-top: 80px;
+
+  }
+  #reset {
+    margin-top: 40px;
+  }
+  .block {
+    height: 0px;
+    padding-bottom: 33%;
+
+  }
+/*  video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    /*background: url("https://www.youtube.com/watch?v=b3zf77RcGaI") no-repeat;
+    background-size: cover;
+  }*/
+
+
