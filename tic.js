@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
                   [1,4,7],
                   [2,5,8],
                   [0,4,8],
-                  [2,4,5]];
+                  [2,4,6]];
 
 
   for (var i = 0; i<block.length; i++) {
@@ -26,15 +26,12 @@ document.addEventListener('DOMContentLoaded', function(){
   var winnerMesage = winner();
   if (winnerMesage) {
     var winWindow = window.open("http://www.dailymotion.com/video/x1tayx_abba-the-winner-takes-it-all_music", "Winner");
-
     alert(winnerMesage);
-
-
   }
   })
   }
 
-  var resetGame = reset.addEventListener("click", function(){
+  reset.addEventListener("click", function(){
     for (var i =0; i < block.length; i++) {
       block[i].innerHTML = "";
       block[i].classList.remove("played");
@@ -51,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     }
 
-    if (moves > 8) {return alert('No seas puta gueyyyy!!'); resetGame();
+
+    if (moves > 8) {return alert('No seas puta gueyyyy!!');
     }
 
 

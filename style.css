@@ -5,7 +5,7 @@
     font-weight: bold;
   }
   .header {
-    font-size: 60px;
+    font-size: 70px;
     color: black;
     margin-bottom: 40px;
   }
@@ -29,6 +29,16 @@
     height: 0px;
     padding-bottom: 33%;
 
+  }
+
+  .x {
+    color: red;
+    background-color: rgba(0,0,200,0.5);
+  }
+
+  .o {
+    color: blue;
+    background-color: rgba(200,0,0,0.5);
   }
 /*  video#bgvid {
     position: fixed; right: 0; bottom: 0;
